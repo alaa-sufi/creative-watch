@@ -1,0 +1,22 @@
+.container
+  figure.sun
+    .eyes
+      .eye
+      .eye
+    .mouth
+    .sunbeams
+      - for(var i=0;i<8;i++)
+        span.beam
+  figure.moon
+    .eyes
+      .eye
+      .eye
+    .mouth
+    .craters
+      - for(var i=0;i<6;i++)
+        span.crater
+  .clock
+    span.outer-shapes-top
+    span.outer-shapes-bottom
+    .black-inside 88<span>:</span>88
+  button.fast-simulation fast simulation
